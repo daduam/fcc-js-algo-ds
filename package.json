@@ -1,0 +1,22 @@
+{
+  "name": "fcc-js-algo-ds",
+  "version": "1.0.0",
+  "description": "freecodecamp JavaScript Algorithms and Data Structures projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daduam/fcc-js-algo-ds.git"
+  },
+  "keywords": [
+    "freecodecamp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daduam/fcc-js-algo-ds/issues"
+  },
+  "homepage": "https://github.com/daduam/fcc-js-algo-ds#readme"
+}
