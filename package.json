@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/daduam/fcc-js-algo-ds/issues"
   },
-  "homepage": "https://github.com/daduam/fcc-js-algo-ds#readme"
+  "homepage": "https://github.com/daduam/fcc-js-algo-ds#readme",
+  "devDependencies": {
+    "jest": "^26.6.1"
+  }
 }
