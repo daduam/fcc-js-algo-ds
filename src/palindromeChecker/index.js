@@ -19,7 +19,7 @@ function palindrome(str) {
   const regex = /[a-z0-9]/;
 
   [...str.toLowerCase()].forEach((ch) => {
-    if (regex.exec(ch)) {
+    if (regex.test(ch)) {
       refinedStr += ch;
     }
   });
