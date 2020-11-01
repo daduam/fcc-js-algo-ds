@@ -31,7 +31,7 @@ function convertToRoman(num, roman = "") {
   for (let i = 0; i < romanVals.length; i++) {
     const sym = romanVals[i];
 
-    if ((digit === 9 || digit === 4) && val === sym - place) {
+    if (val === sym - place) {
       roman += romanSymbols[place] + romanSymbols[sym];
       num -= val;
       break;
