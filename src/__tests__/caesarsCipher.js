@@ -10,6 +10,6 @@ describe("Caesar's Cipher", () => {
       "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.",
     ],
   ])('rot13("%s") should decode to %s', (str, expected) => {
-    expected(rot13(str)).toBe(expected);
+    expect(rot13(str)).toBe(expected);
   });
 });
